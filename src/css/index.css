@@ -1,10 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
 body {
 	margin: 0;
-	background-image: url('./../img/bg.jpg');
-	background-repeat: no-repeat;
-  	background-attachment: fixed;
-  	background-position: center;
+	background-color: #ffb202
 } 
 
 /* HEADER */
@@ -38,6 +35,52 @@ header{
     fill: white;
     width: 20px;
     height: 14px;
+}
+
+/* MAIN */
+.h1{
+    text-align: center;
+    margin-top: 50px;
+    font-size: 50px;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+}
+.button{
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: none;
+    cursor: pointer;
+    outline: none;
+    margin: 12px 0;
+    padding: 1em 2em;
+    border-radius: 10px;
+    border: 2px solid white;
+    font-size: 1em;
+    background: none;
+    color: white;
+}
+.button:hover{
+    color: white;
+    background: cornflowerblue;
+}
+.product-name{
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+}
+.product-price{
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+}
+.container-product {
+    width: 1280px;
+    margin: 5em auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-gap: 10px;
+}
+.container-product img {
+    height: 20em;
+    width: 20em;
 }
 
 /* Footer */
