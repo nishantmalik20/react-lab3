@@ -1,8 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
 body {
 	margin: 0;
-	background-color: #ffb202;
 	background-image: url('./../img/bg.jpg');
+	background-repeat: no-repeat;
+  	background-attachment: fixed;
+  	background-position: center;
 } 
 
 /* HEADER */
